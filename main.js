@@ -13,7 +13,6 @@ $(function () {
 
 										jQuery('body').append(listingFooter);
 									}
-									jQuery('body').prepend(shadow);
 									jQuery(".row-fluid").last().addClass("footerBG");
 								});
 
