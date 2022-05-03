@@ -53,7 +53,7 @@ $(function () {
 									var url = location.href;
 									var headerDiv = document.getElementsByClassName('row-fluid')[1];
 
-									if (url == "https://www.realestate-punta-cana.com/" || url == "https://www.realestate-punta-cana.com/#" || url == "https://www.realestate-punta-cana.com/#Top") {
+									if (url == "https://www.gopuntacanarealestate.com/" || url == "https://www.gopuntacanarealestate.com/#" || url == "https://www.gopuntacanarealestate.com/#Top") {
 										headerDiv.classList.add('transparent');
 									}
 
@@ -64,7 +64,7 @@ $(function () {
 									var url = location.href;
 									var headerDiv = document.getElementsByClassName('row-fluid')[2];
 									
-									if (url == "https://www.realestate-punta-cana.com/" || url == "https://www.realestate-punta-cana.com/#" || url == "https://www.realestate-punta-cana.com/#Top") {
+									if (url == "https://www.gopuntacanarealestate.com/" || url == "https://www.gopuntacanarealestate.com/#" || url == "https://www.gopuntacanarealestate.com/#Top") {
 										headerDiv.classList.add('fullwidth');
 									}
 
