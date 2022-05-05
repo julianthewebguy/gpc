@@ -53,7 +53,8 @@ $(function () {
 									var url = location.href;
 									var headerDiv = document.getElementsByClassName('row-fluid')[1];
 
-									if (url == "https://www.gopuntacanarealestate.com/" || url == "https://www.gopuntacanarealestate.com/#" || url == "https://www.gopuntacanarealestate.com/#Top" || url == "https://gopuntacanarealestate.com/" || url == "https://gopuntacanarealestate.com/#" || url == "https://gopuntacanarealestate.com/#Top") {
+									if (url == "https://www.gopuntacanarealestate.com/" || url == "https://www.gopuntacanarealestate.com/#" || url == "https://www.gopuntacanarealestate.com/#Top" || url == "https://gopuntacanarealestate.com/" || url == "https://gopuntacanarealestate.com/#" || url == "https://gopuntacanarealestate.com/#Top" || (window.location.href.indexOf('https://www.gopuntacanarealestate.com/homes.aspx?__ts=') == 0)) {
+										headerDiv.classList.add('fullwidth');
 										headerDiv.classList.add('transparent');
 									}
 
@@ -64,7 +65,7 @@ $(function () {
 									var url = location.href;
 									var headerDiv = document.getElementsByClassName('row-fluid')[2];
 									
-									if (url == "https://www.gopuntacanarealestate.com/" || url == "https://www.gopuntacanarealestate.com/#" || url == "https://www.gopuntacanarealestate.com/#Top" || url == "https://gopuntacanarealestate.com/" || url == "https://gopuntacanarealestate.com/#" || url == "https://gopuntacanarealestate.com/#Top") {
+									if (url == "https://www.gopuntacanarealestate.com/" || url == "https://www.gopuntacanarealestate.com/#" || url == "https://www.gopuntacanarealestate.com/#Top" || url == "https://gopuntacanarealestate.com/" || url == "https://gopuntacanarealestate.com/#" || url == "https://gopuntacanarealestate.com/#Top" || (window.location.href.indexOf('https://www.gopuntacanarealestate.com/homes.aspx?__ts=') == 0)) {
 										headerDiv.classList.add('fullwidth');
 									}
 
